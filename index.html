@@ -7,34 +7,54 @@
     <title>Laurel Template</title>
     <link href="https://fonts.googleapis.com/css?family=Heebo:400,500,700|Playfair+Display:700" rel="stylesheet">
     <link rel="stylesheet" href="dist/css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
-<body class="is-boxed has-animations">
-    <div class="body-wrap boxed-container">
-        <header class="site-header">
+<style>
+	*{
+		font-family:inter;
+		color: #5240a6;
+	}
+	.iframeContentCenter{
+  width: 414px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  margin-top: auto;
+  margin-bottom:auto;  
+  border-style: none;
+  height: 80%;
+  display: block;
+}
+</style>
+<body style = "background-color: #f5f8fe;"class="is-boxed has-animations" style="box-shadow: 0px 0px;">
+    <div class="body-wrap boxed-container" style="box-shadow: 0px 0px;" >
+        <header class="site-header"  style="background-color: #f5f8fe;" >
             <div class="container">
                 <div class="site-header-inner">
-                    <div class="brand header-brand">
-                        <h1 class="m-0">
+                    <div class="brand header-brand" >
+                        <h1 class="m-0" style="color: #5240a6;">
                             <a href="#">
-								<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-									<title>Laurel</title>
-								    <defs>
-								        <linearGradient x1="0%" y1="100%" x2="50%" y2="0%" id="logo-a">
-								            <stop stop-color="#F9425F" stop-opacity=".8" offset="0%"/>
-								            <stop stop-color="#47A1F9" stop-opacity=".16" offset="100%"/>
-								        </linearGradient>
-								        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="logo-b">
-								            <stop stop-color="#FDFFDA" offset="0%"/>
-								            <stop stop-color="#F97059" stop-opacity=".798" offset="49.935%"/>
-								            <stop stop-color="#F9425F" stop-opacity="0" offset="100%"/>
-								        </linearGradient>
-								    </defs>
-								    <g fill="none" fill-rule="evenodd">
-								        <path d="M22 19.22c6.627 0 9.593-6.415 9.593-13.042C31.593-.45 28.627.007 22 .007S10 2.683 10 9.31c0 6.628 5.373 9.91 12 9.91z" fill="url(#logo-a)"/>
-								        <path d="M13.666 31.889c7.547 0 10.924-7.307 10.924-14.854 0-7.547-3.377-7.027-10.924-7.027C6.118 10.008 0 13.055 0 20.603c0 7.547 6.118 11.286 13.666 11.286z" fill="url(#logo-b)" transform="matrix(-1 0 0 1 24.59 0)"/>
-								    </g>
-								</svg>
+								<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<g clip-path="url(#clip0_800_715)">
+									<rect x="7.37427" y="-1" width="26.9594" height="26.9594" rx="9.92592" transform="rotate(18.0968 7.37427 -1)" fill="url(#paint0_linear_800_715)"/>
+									<path d="M12.5713 19.4297L8.09888 10.5811H11.6576L13.1484 13.5627L14.6873 10.5811H24.089L17.8853 22.9885H14.3507L19.0876 13.5146H19.0636L13.1484 13.5627L14.3507 15.9672L12.5713 19.4297Z" fill="white"/>
+									</g>
+									<defs>
+									<linearGradient id="paint0_linear_800_715" x1="20.854" y1="-1" x2="20.8176" y2="25.9594" gradientUnits="userSpaceOnUse">
+									<stop stop-color="#5240A6"/>
+									<stop offset="1" stop-color="#6146C6"/>
+									</linearGradient>
+									<clipPath id="clip0_800_715">
+									<rect width="32" height="32" fill="white"/>
+									</clipPath>
+									</defs>
+									</svg>
+
+
                             </a>
                         </h1>
                     </div>
@@ -42,24 +62,24 @@
             </div>
         </header>
 
-        <main>
-            <section class="hero">
+        <main style="background-color: #f5f8fe; box-shadow: 0px 0px; ">
+            <section class="hero" style="background-color: #f5f8fe; margin-top: -20px; box-shadow: 0px;">
                 <div class="container">
                     <div class="hero-inner">
-						<div class="hero-copy">
-	                        <h1 class="hero-title mt-0">Landing template for startups</h1>
+						<div class="hero-copy" style="margin-bottom: 40px;">
+	                        <h1 class="hero-title mt-0" style="color: #5240a6;">Landing template for startups</h1>
 	                        <p class="hero-paragraph">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
 	                        <div class="hero-form field field-grouped">
 								<div class="control control-expanded">
-									<input class="input" type="email" name="email" placeholder="Your best email&hellip;">
+									<input class="input" type="email" name="email" placeholder="">
 								</div>
 								<div class="control">
-									<a class="button button-primary button-block" href="#" >Early access</a>
+									<a  style = "background-color: #5240a6; box-shadow: 0px 0px;"class="button button-primary button-block; " href="#" >Early access</a>
 								</div>
 							</div>
 						</div>
-						<div class="hero-app">
-							<div class="hero-app-illustration">
+						<div class="hero-app" style="margin-left: -10%;margin-right: 5%; margin-top: -10px;">
+							<!--<div class="hero-app-illustration">
 								<svg width="999" height="931" xmlns="http://www.w3.org/2000/svg">
 								    <defs>
 								        <linearGradient x1="92.827%" y1="0%" x2="53.422%" y2="80.087%" id="hero-shape-a">
@@ -107,22 +127,25 @@
 										</g>
 								    </g>
 								</svg>
-							</div>
-							<img class="device-mockup" src="iPhone 13 Pro.png" alt="App preview">
-							<!--<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FI18kcGWj9WKNjehVY7olnE%2FVzigo%3Fnode-id%3D357%253A5300%26scaling%3Dscale-down%26page-id%3D14%253A17%26starting-point-node-id%3D357%253A5300" allowfullscreen></iframe>-->
-                            <div class="hero-app-dots hero-app-dots-1">
-								<svg width="124" height="75" xmlns="http://www.w3.org/2000/svg">
-								    <g fill="none" fill-rule="evenodd">
-								        <path fill="#FFF" d="M33.392 0l3.624 1.667.984 3.53-1.158 3.36L33.392 10l-3.249-1.639L28 5.196l1.62-3.674z"/>
-								        <path fill="#7487A3" d="M74.696 3l1.812.833L77 5.598l-.579 1.68L74.696 8l-1.624-.82L72 5.599l.81-1.837z"/>
-								        <path fill="#556B8B" d="M40.696 70l1.812.833.492 1.765-.579 1.68-1.725.722-1.624-.82L38 72.599l.81-1.837z"/>
-								        <path fill="#7487A3" d="M4.314 37l2.899 1.334L8 41.157l-.926 2.688L4.314 45l-2.6-1.31L0 41.156l1.295-2.94zM49.314 32l2.899 1.334.787 2.823-.926 2.688L49.314 40l-2.6-1.31L45 36.156l1.295-2.94z"/>
-								        <path fill="#556B8B" d="M99.696 56l1.812.833.492 1.765-.579 1.68-1.725.722-1.624-.82L97 58.599l.81-1.837zM112.696 37l1.812.833.492 1.765-.579 1.68-1.725.722-1.624-.82L110 39.599l.81-1.837zM82.696 37l1.812.833.492 1.765-.579 1.68-1.725.722-1.624-.82L80 39.599l.81-1.837zM122.618 57l1.087.5.295 1.059-.347 1.008-1.035.433-.975-.492-.643-.95.486-1.101z"/>
-								    </g>
-								</svg>
+
+								
+
+							</div>-->
+						
+							
+							<div class="iframeContentCenter">
+								<iframe style="border: 1px solid rgba(0, 0, 0, 0); margin-right: 20px;" width="414" height="802" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FI18kcGWj9WKNjehVY7olnE%2FVzigo%3Fpage-id%3D14%253A17%26node-id%3D365%253A6028%26viewport%3D246%252C48%252C0.33%26scaling%3Dscale-down%26starting-point-node-id%3D357%253A5300%26hotspot-hints%3D0%26hide-ui=1" allowfullscreen></iframe>
+							  </div>
+						
+
+							
+							<!--<video src="test.mp4" style="width: 350px; height: auto; margin: 0 auto;"autoplay muted alt="App preview"> -->
+								
+							
+								
                             </div>
-							<div class="hero-app-dots hero-app-dots-2">
-								<svg width="124" height="75" xmlns="http://www.w3.org/2000/svg">
+							<!--<div class="hero-app-dots hero-app-dots-2">-->
+								<!--<svg width="124" height="75" xmlns="http://www.w3.org/2000/svg">
 								    <g fill="none" fill-rule="evenodd">
 								        <path fill="#556B8B" d="M33.392 0l3.624 1.667.984 3.53-1.158 3.36L33.392 10l-3.249-1.639L28 5.196l1.62-3.674zM74.696 3l1.812.833L77 5.598l-.579 1.68L74.696 8l-1.624-.82L72 5.599l.81-1.837zM40.696 70l1.812.833.492 1.765-.579 1.68-1.725.722-1.624-.82L38 72.599l.81-1.837zM4.314 37l2.899 1.334L8 41.157l-.926 2.688L4.314 45l-2.6-1.31L0 41.156l1.295-2.94zM49.314 32l2.899 1.334.787 2.823-.926 2.688L49.314 40l-2.6-1.31L45 36.156l1.295-2.94z"/>
 								        <path fill="#FFF" d="M99.696 56l1.812.833.492 1.765-.579 1.68-1.725.722-1.624-.82L97 58.599l.81-1.837z"/>
@@ -130,7 +153,7 @@
 								        <path fill="#FFF" d="M82.696 37l1.812.833.492 1.765-.579 1.68-1.725.722-1.624-.82L80 39.599l.81-1.837z"/>
 								        <path fill="#556B8B" d="M122.618 57l1.087.5.295 1.059-.347 1.008-1.035.433-.975-.492-.643-.95.486-1.101z"/>
 								    </g>
-								</svg>
+								</svg>-->
 							</div>
 						</div>
                     </div>
@@ -140,161 +163,215 @@
             <section class="features section">
                 <div class="container">
 					<div class="features-inner section-inner has-bottom-divider">
-						<h2 class="section-title mt-0">Bold features</h2>
+						<h2 class="section-title mt-0" style="color: #5240a6;">Bold features</h2>
                         <div class="features-wrap">
                             <div class="feature is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg">
-										    <defs>
-										        <linearGradient x1="0%" y1="100%" x2="50%" y2="0%" id="feature-1-a">
-										            <stop stop-color="#F9425F" stop-opacity=".8" offset="0%"/>
-										            <stop stop-color="#47A1F9" stop-opacity=".16" offset="100%"/>
-										        </linearGradient>
-										        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="feature-1-b">
-										            <stop stop-color="#FDFFDA" offset="0%"/>
-										            <stop stop-color="#F97059" stop-opacity=".798" offset="49.935%"/>
-										            <stop stop-color="#F9425F" stop-opacity="0" offset="100%"/>
-										        </linearGradient>
-										    </defs>
-										    <g  fill="none" fill-rule="evenodd">
-										        <path d="M24 48H0V24C0 10.745 10.745 0 24 0h24v24c0 13.255-10.745 24-24 24" fill="url(#feature-1-a)"/>
-										        <path d="M40 64H16V40c0-13.255 10.745-24 24-24h24v24c0 13.255-10.745 24-24 24" fill="url(#feature-1-b)"/>
-										    </g>
-										</svg>
+										<svg width="68" height="64" viewBox="0 0 68 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<g clip-path="url(#clip0_468_15977)">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M0.000281334 39.9411L16.9708 22.9706C26.3435 13.5979 41.5393 13.5979 50.912 22.9706L67.8825 39.9411L50.912 56.9117C41.5393 66.2844 26.3435 66.2844 16.9708 56.9117L0.000281334 39.9411V39.9411Z" fill="url(#paint0_linear_468_15977)"/>
+											<g filter="url(#filter0_b_468_15977)">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M16 0V24C16 37.255 26.745 48 40 48H64V24C64 10.745 53.255 0 40 0H16Z" fill="url(#paint1_linear_468_15977)" fill-opacity="0.5"/>
+											</g>
+											</g>
+											<defs>
+											<filter id="filter0_b_468_15977" x="8" y="-8" width="64" height="64" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+											<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+											<feGaussianBlur in="BackgroundImage" stdDeviation="4"/>
+											<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_468_15977"/>
+											<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_468_15977" result="shape"/>
+											</filter>
+											<linearGradient id="paint0_linear_468_15977" x1="84.8078" y1="-11.0158" x2="16.9256" y2="56.8664" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#20164F"/>
+											<stop offset="1" stop-color="#7057CA"/>
+											</linearGradient>
+											<linearGradient id="paint1_linear_468_15977" x1="39.936" y1="-48" x2="39.936" y2="48" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#46349C"/>
+											<stop offset="1" stop-color="#352475"/>
+											</linearGradient>
+											<clipPath id="clip0_468_15977">
+											<rect width="68" height="64" fill="white"/>
+											</clipPath>
+											</defs>
+											</svg>
                                     </div>
-                                    <h3 class="feature-title mt-24">Discover</h3>
-                                    <p class="text-sm mb-0">A pseudo-Latin text used in web design, layout, and printing in place of things to emphasise design.</p>
+                                    <h3 class="feature-title mt-24" style="color: #5240a6;">Discover</h3>
+                                    <p class="text-sm mb-0" style="color: #5240a6;">A pseudo-Latin text used in web design, layout, and printing in place of things to emphasise design.</p>
                                 </div>
                             </div>
 							<div class="feature is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										<svg width="68" height="64" xmlns="http://www.w3.org/2000/svg">
-										    <defs>
-										        <linearGradient x1="0%" y1="100%" x2="50%" y2="0%" id="feature-2-a">
-										            <stop stop-color="#F9425F" stop-opacity=".8" offset="0%"/>
-										            <stop stop-color="#47A1F9" stop-opacity=".16" offset="100%"/>
-										        </linearGradient>
-										        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="feature-2-b">
-										            <stop stop-color="#FDFFDA" offset="0%"/>
-										            <stop stop-color="#F97059" stop-opacity=".798" offset="49.935%"/>
-										            <stop stop-color="#F9425F" stop-opacity="0" offset="100%"/>
-										        </linearGradient>
-										    </defs>
-										    <g fill="none" fill-rule="evenodd">
-										        <path d="M9.941 63.941v-24c0-13.255 10.745-24 24-24h24v24c0 13.255-10.745 24-24 24h-24z" fill="url(#feature-2-a)" transform="rotate(45 33.941 39.941)"/>
-										        <path d="M16 0v24c0 13.255 10.745 24 24 24h24V24C64 10.745 53.255 0 40 0H16z" fill="url(#feature-2-b)"/>
-										    </g>
-										</svg>
+										<svg width="68" height="64" viewBox="0 0 68 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<g clip-path="url(#clip0_468_15977)">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M0.000281334 39.9411L16.9708 22.9706C26.3435 13.5979 41.5393 13.5979 50.912 22.9706L67.8825 39.9411L50.912 56.9117C41.5393 66.2844 26.3435 66.2844 16.9708 56.9117L0.000281334 39.9411V39.9411Z" fill="url(#paint0_linear_468_15977)"/>
+											<g filter="url(#filter0_b_468_15977)">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M16 0V24C16 37.255 26.745 48 40 48H64V24C64 10.745 53.255 0 40 0H16Z" fill="url(#paint1_linear_468_15977)" fill-opacity="0.5"/>
+											</g>
+											</g>
+											<defs>
+											<filter id="filter0_b_468_15977" x="8" y="-8" width="64" height="64" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+											<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+											<feGaussianBlur in="BackgroundImage" stdDeviation="4"/>
+											<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_468_15977"/>
+											<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_468_15977" result="shape"/>
+											</filter>
+											<linearGradient id="paint0_linear_468_15977" x1="84.8078" y1="-11.0158" x2="16.9256" y2="56.8664" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#20164F"/>
+											<stop offset="1" stop-color="#7057CA"/>
+											</linearGradient>
+											<linearGradient id="paint1_linear_468_15977" x1="39.936" y1="-48" x2="39.936" y2="48" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#46349C"/>
+											<stop offset="1" stop-color="#352475"/>
+											</linearGradient>
+											<clipPath id="clip0_468_15977">
+											<rect width="68" height="64" fill="white"/>
+											</clipPath>
+											</defs>
+											</svg>
                                     </div>
-                                    <h3 class="feature-title mt-24">Discover</h3>
-                                    <p class="text-sm mb-0">A pseudo-Latin text used in web design, layout, and printing in place of things to emphasise design.</p>
+                                    <h3 class="feature-title mt-24" style="color: #5240a6;">Discover</h3>
+                                    <p class="text-sm mb-0" style="color: #5240a6;">A pseudo-Latin text used in web design, layout, and printing in place of things to emphasise design.</p>
                                 </div>
                             </div>
                             <div class="feature is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg">
-										    <defs>
-										        <linearGradient x1="50%" y1="100%" x2="50%" y2="43.901%" id="feature-3-a">
-										            <stop stop-color="#F97059" stop-opacity=".798" offset="0%"/>
-										            <stop stop-color="#F9425F" stop-opacity="0" offset="100%"/>
-										        </linearGradient>
-										        <linearGradient x1="58.893%" y1="100%" x2="58.893%" y2="18.531%" id="feature-3-b">
-										            <stop stop-color="#F9425F" stop-opacity=".8" offset="0%"/>
-										            <stop stop-color="#47A1F9" stop-opacity="0" offset="100%"/>
-										        </linearGradient>
-										        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="feature-3-c">
-										            <stop stop-color="#FDFFDA" offset="0%"/>
-										            <stop stop-color="#F97059" stop-opacity=".798" offset="49.935%"/>
-										            <stop stop-color="#F9425F" stop-opacity="0" offset="100%"/>
-										        </linearGradient>
-										    </defs>
-										    <g fill="none" fill-rule="evenodd">
-										        <path fill="url(#feature-3-a)" opacity=".32" d="M0 24h64v40H0z"/>
-										        <path fill="url(#feature-3-b)" d="M40 24H24L0 64h64z"/>
-										        <path d="M10 10v22c0 12.15 9.85 22 22 22h22V32c0-12.15-9.85-22-22-22H10z" fill="url(#feature-3-c)" transform="rotate(45 32 32)"/>
-										    </g>
-										</svg>
+										<svg width="68" height="64" viewBox="0 0 68 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<g clip-path="url(#clip0_468_15977)">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M0.000281334 39.9411L16.9708 22.9706C26.3435 13.5979 41.5393 13.5979 50.912 22.9706L67.8825 39.9411L50.912 56.9117C41.5393 66.2844 26.3435 66.2844 16.9708 56.9117L0.000281334 39.9411V39.9411Z" fill="url(#paint0_linear_468_15977)"/>
+											<g filter="url(#filter0_b_468_15977)">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M16 0V24C16 37.255 26.745 48 40 48H64V24C64 10.745 53.255 0 40 0H16Z" fill="url(#paint1_linear_468_15977)" fill-opacity="0.5"/>
+											</g>
+											</g>
+											<defs>
+											<filter id="filter0_b_468_15977" x="8" y="-8" width="64" height="64" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+											<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+											<feGaussianBlur in="BackgroundImage" stdDeviation="4"/>
+											<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_468_15977"/>
+											<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_468_15977" result="shape"/>
+											</filter>
+											<linearGradient id="paint0_linear_468_15977" x1="84.8078" y1="-11.0158" x2="16.9256" y2="56.8664" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#20164F"/>
+											<stop offset="1" stop-color="#7057CA"/>
+											</linearGradient>
+											<linearGradient id="paint1_linear_468_15977" x1="39.936" y1="-48" x2="39.936" y2="48" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#46349C"/>
+											<stop offset="1" stop-color="#352475"/>
+											</linearGradient>
+											<clipPath id="clip0_468_15977">
+											<rect width="68" height="64" fill="white"/>
+											</clipPath>
+											</defs>
+											</svg>
                                     </div>
-                                    <h3 class="feature-title mt-24">Discover</h3>
-                                    <p class="text-sm mb-0">A pseudo-Latin text used in web design, layout, and printing in place of things to emphasise design.</p>
+                                    <h3 class="feature-title mt-24" style="color: #5240a6;">Discover</h3>
+                                    <p class="text-sm mb-0" style="color: #5240a6;">A pseudo-Latin text used in web design, layout, and printing in place of things to emphasise design.</p>
                                 </div>
                             </div>
                             <div class="feature is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg">
-										    <defs>
-										        <linearGradient x1="0%" y1="100%" x2="50%" y2="0%" id="feature-4-a">
-										            <stop stop-color="#F9425F" stop-opacity=".8" offset="0%"/>
-										            <stop stop-color="#47A1F9" stop-opacity=".16" offset="100%"/>
-										        </linearGradient>
-										        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="feature-4-b">
-										            <stop stop-color="#FDFFDA" offset="0%"/>
-										            <stop stop-color="#F97059" stop-opacity=".798" offset="49.935%"/>
-										            <stop stop-color="#F9425F" stop-opacity="0" offset="100%"/>
-										        </linearGradient>
-										    </defs>
-										    <g fill="none" fill-rule="evenodd">
-										        <path d="M24 64H0V40c0-13.255 10.745-24 24-24h24v24c0 13.255-10.745 24-24 24" fill="url(#feature-4-a)" transform="matrix(-1 0 0 1 48 0)"/>
-										        <path d="M40 48H16V24C16 10.745 26.745 0 40 0h24v24c0 13.255-10.745 24-24 24" fill="url(#feature-4-b)"/>
-										    </g>
-										</svg>
+										<svg width="68" height="64" viewBox="0 0 68 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<g clip-path="url(#clip0_468_15977)">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M0.000281334 39.9411L16.9708 22.9706C26.3435 13.5979 41.5393 13.5979 50.912 22.9706L67.8825 39.9411L50.912 56.9117C41.5393 66.2844 26.3435 66.2844 16.9708 56.9117L0.000281334 39.9411V39.9411Z" fill="url(#paint0_linear_468_15977)"/>
+											<g filter="url(#filter0_b_468_15977)">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M16 0V24C16 37.255 26.745 48 40 48H64V24C64 10.745 53.255 0 40 0H16Z" fill="url(#paint1_linear_468_15977)" fill-opacity="0.5"/>
+											</g>
+											</g>
+											<defs>
+											<filter id="filter0_b_468_15977" x="8" y="-8" width="64" height="64" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+											<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+											<feGaussianBlur in="BackgroundImage" stdDeviation="4"/>
+											<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_468_15977"/>
+											<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_468_15977" result="shape"/>
+											</filter>
+											<linearGradient id="paint0_linear_468_15977" x1="84.8078" y1="-11.0158" x2="16.9256" y2="56.8664" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#20164F"/>
+											<stop offset="1" stop-color="#7057CA"/>
+											</linearGradient>
+											<linearGradient id="paint1_linear_468_15977" x1="39.936" y1="-48" x2="39.936" y2="48" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#46349C"/>
+											<stop offset="1" stop-color="#352475"/>
+											</linearGradient>
+											<clipPath id="clip0_468_15977">
+											<rect width="68" height="64" fill="white"/>
+											</clipPath>
+											</defs>
+											</svg>
                                     </div>
-                                    <h3 class="feature-title mt-24">Discover</h3>
-                                    <p class="text-sm mb-0">A pseudo-Latin text used in web design, layout, and printing in place of things to emphasise design.</p>
+                                    <h3 class="feature-title mt-24" style="color: #5240a6;">Discover</h3>
+                                    <p class="text-sm mb-0" style="color: #5240a6;">A pseudo-Latin text used in web design, layout, and printing in place of things to emphasise design.</p>
                                 </div>
                             </div>
 							<div class="feature is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg">
-										    <defs>
-										        <linearGradient x1="0%" y1="100%" x2="50%" y2="0%" id="feature-5-a">
-										            <stop stop-color="#F9425F" stop-opacity=".8" offset="0%"/>
-										            <stop stop-color="#47A1F9" stop-opacity=".16" offset="100%"/>
-										        </linearGradient>
-										        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="feature-5-b">
-										            <stop stop-color="#FDFFDA" offset="0%"/>
-										            <stop stop-color="#F97059" stop-opacity=".798" offset="49.935%"/>
-										            <stop stop-color="#F9425F" stop-opacity="0" offset="100%"/>
-										        </linearGradient>
-										    </defs>
-										    <g fill="none" fill-rule="evenodd">
-										        <path d="M24 63H0V39c0-13.255 10.745-24 24-24h24v24c0 13.255-10.745 24-24 24" fill="url(#feature-5-a)" transform="matrix(-1 0 0 1 48 0)"/>
-										        <path d="M40 48H16V24C16 10.745 26.745 0 40 0h24v24c0 13.255-10.745 24-24 24" fill-opacity=".24" fill="url(#feature-5-a)" transform="matrix(-1 0 0 1 80 0)"/>
-										        <path d="M10.113 10.113v22c0 12.15 9.85 22 22 22h22v-22c0-12.15-9.85-22-22-22h-22z" fill="url(#feature-5-b)" transform="rotate(45 32.113 32.113)"/>
-										    </g>
-										</svg>
+										<svg width="68" height="64" viewBox="0 0 68 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<g clip-path="url(#clip0_468_15977)">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M0.000281334 39.9411L16.9708 22.9706C26.3435 13.5979 41.5393 13.5979 50.912 22.9706L67.8825 39.9411L50.912 56.9117C41.5393 66.2844 26.3435 66.2844 16.9708 56.9117L0.000281334 39.9411V39.9411Z" fill="url(#paint0_linear_468_15977)"/>
+											<g filter="url(#filter0_b_468_15977)">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M16 0V24C16 37.255 26.745 48 40 48H64V24C64 10.745 53.255 0 40 0H16Z" fill="url(#paint1_linear_468_15977)" fill-opacity="0.5"/>
+											</g>
+											</g>
+											<defs>
+											<filter id="filter0_b_468_15977" x="8" y="-8" width="64" height="64" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+											<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+											<feGaussianBlur in="BackgroundImage" stdDeviation="4"/>
+											<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_468_15977"/>
+											<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_468_15977" result="shape"/>
+											</filter>
+											<linearGradient id="paint0_linear_468_15977" x1="84.8078" y1="-11.0158" x2="16.9256" y2="56.8664" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#20164F"/>
+											<stop offset="1" stop-color="#7057CA"/>
+											</linearGradient>
+											<linearGradient id="paint1_linear_468_15977" x1="39.936" y1="-48" x2="39.936" y2="48" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#46349C"/>
+											<stop offset="1" stop-color="#352475"/>
+											</linearGradient>
+											<clipPath id="clip0_468_15977">
+											<rect width="68" height="64" fill="white"/>
+											</clipPath>
+											</defs>
+											</svg>
                                     </div>
-                                    <h3 class="feature-title mt-24">Discover</h3>
-                                    <p class="text-sm mb-0">A pseudo-Latin text used in web design, layout, and printing in place of things to emphasise design.</p>
+                                    <h3 class="feature-title mt-24" style="color: #5240a6;">Discover</h3>
+                                    <p class="text-sm mb-0" style="color: #5240a6;">A pseudo-Latin text used in web design, layout, and printing in place of things to emphasise design.</p>
                                 </div>
                             </div>
                             <div class="feature is-revealing">
                                 <div class="feature-inner">
                                     <div class="feature-icon">
-										<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg" >
-										    <defs>
-										        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="feature-6-a">
-										            <stop stop-color="#FDFFDA" offset="0%"/>
-										            <stop stop-color="#F97059" stop-opacity=".798" offset="49.935%"/>
-										            <stop stop-color="#F9425F" stop-opacity="0" offset="100%"/>
-										        </linearGradient>
-										        <linearGradient x1="58.893%" y1="100%" x2="58.893%" y2="18.531%" id="feature-6-b">
-										            <stop stop-color="#F9425F" stop-opacity=".8" offset="0%"/>
-										            <stop stop-color="#47A1F9" stop-opacity="0" offset="100%"/>
-										        </linearGradient>
-										    </defs>
-										    <g fill="none" fill-rule="evenodd">
-										        <path d="M24 48H0V24C0 10.745 10.745 0 24 0h24v24c0 13.255-10.745 24-24 24" fill="url(#feature-6-a)"/>
-										        <path fill-opacity=".64" fill="url(#feature-6-b)" d="M24 29.229h40V64H0z"/>
-										    </g>
-										</svg>
+										<svg width="68" height="64" viewBox="0 0 68 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<g clip-path="url(#clip0_468_15977)">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M0.000281334 39.9411L16.9708 22.9706C26.3435 13.5979 41.5393 13.5979 50.912 22.9706L67.8825 39.9411L50.912 56.9117C41.5393 66.2844 26.3435 66.2844 16.9708 56.9117L0.000281334 39.9411V39.9411Z" fill="url(#paint0_linear_468_15977)"/>
+											<g filter="url(#filter0_b_468_15977)">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M16 0V24C16 37.255 26.745 48 40 48H64V24C64 10.745 53.255 0 40 0H16Z" fill="url(#paint1_linear_468_15977)" fill-opacity="0.5"/>
+											</g>
+											</g>
+											<defs>
+											<filter id="filter0_b_468_15977" x="8" y="-8" width="64" height="64" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+											<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+											<feGaussianBlur in="BackgroundImage" stdDeviation="4"/>
+											<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_468_15977"/>
+											<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_468_15977" result="shape"/>
+											</filter>
+											<linearGradient id="paint0_linear_468_15977" x1="84.8078" y1="-11.0158" x2="16.9256" y2="56.8664" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#20164F"/>
+											<stop offset="1" stop-color="#7057CA"/>
+											</linearGradient>
+											<linearGradient id="paint1_linear_468_15977" x1="39.936" y1="-48" x2="39.936" y2="48" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#46349C"/>
+											<stop offset="1" stop-color="#352475"/>
+											</linearGradient>
+											<clipPath id="clip0_468_15977">
+											<rect width="68" height="64" fill="white"/>
+											</clipPath>
+											</defs>
+											</svg>
                                     </div>
-                                    <h3 class="feature-title mt-24">Discover</h3>
+                                    <h3 class="feature-title mt-24" style="color: #5240a6;">Discover</h3>
                                     <p class="text-sm mb-0">A pseudo-Latin text used in web design, layout, and printing in place of things to emphasise design.</p>
                                 </div>
                             </div>
@@ -307,12 +384,14 @@
                 <div class="container-sm">
                     <div class="media-inner section-inner">
                         <div class="media-header text-center">
-                            <h2 class="section-title mt-0">Meet Laurel</h2>
+                            <h2 class="section-title mt-0" style="color: #5240a6;">Meet Laurel</h2>
                             <p class="section-paragraph mb-0">Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or visual presentation.</p>
                         </div>
-						<div class="media-canvas">
+						
 
-							<iframe id="Video_prototype" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FI18kcGWj9WKNjehVY7olnE%2FVzigo%3Fnode-id%3D357%253A5300%26scaling%3Dscale-down%26page-id%3D14%253A17%26starting-point-node-id%3D357%253A5300" allowfullscreen></iframe>
+							<!--<video id="Video_prototype" muted src="Figma Tutorial_ Prototyping.mp4" width="800" height="450"></video>-->
+
+							
 							<!--<video id="Video_prototype" muted width="800" height="450" src="Figma Tutorial_ Prototyping.mp4">-->
 							    <!--<defs>>
 							        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="media-canvas">
@@ -321,8 +400,8 @@
 							        </linearGradient>
 							    </defs>
 							    <rect width="800" height="450" rx="8" fill="url(#media-canvas)" fill-rule="evenodd"/>-->
-							</video>
-							<div class="media-control" >
+							
+							<div class="media-control" style="margin-top: -30%;" >
 								<svg width="96" height="96" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg" id = "video_btn" onclick="video_function()">
 									
 								    <defs>
@@ -336,13 +415,15 @@
                                             <feColorMatrix values="0 0 0 0 0.024 0 0 0 0 0.064 0 0 0 0 0.12 0 0 0 0.24 0" in="shadowBlurOuter"></feColorMatrix>
                                         </filter>
 								    </defs>
-								    <g  id="video-button" fill="none" fill-rule="evenodd">
-								        <circle fill="#FFF" cx="48" cy="48" r="48" style="mix-blend-mode:multiply;filter:url(#media-shadow)"/>
-										<circle fill="url(#media-control)" cx="48" cy="48" r="48"/>
-								        <path d="M44.6 39.2a1.001 1.001 0 0 0-1.6.8v18a1.001 1.001 0 0 0 1.6.8l12-9a.998.998 0 0 0 0-1.6l-12-9z" fill="#1D304B"/>
-								    </g>
+								    
 								</svg>
 							</div>
+							<video src="Figma Tutorial_ Prototyping.mp4" autoplay muted width="100%" height="100%"></video>
+
+							
+
+                            <!--<iframe id="Video_prototype" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FI18kcGWj9WKNjehVY7olnE%2FVzigo%3Fnode-id%3D357%253A5300%26scaling%3Dscale-down%26page-id%3D14%253A17%26starting-point-node-id%3D357%253A5300" allowfullscreen></iframe>-->
+
 						</div>
                     </div>
                 </div>
@@ -352,15 +433,15 @@
                 <div class="container-sm">
                     <div class="newsletter-inner section-inner">
                         <div class="newsletter-header text-center">
-                            <h2 class="section-title mt-0">Stay in the know</h2>
+                            <h2 class="section-title mt-0" style="color: #5240a6;">Stay in the know</h2>
                             <p class="section-paragraph">Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or visual presentation.</p>
                         </div>
                         <div class="footer-form newsletter-form field field-grouped">
                             <div class="control control-expanded">
-                                <input class="input" type="email" name="email" placeholder="Your best email&hellip;">
+                                <input class="input" type="email" name="email" placeholder="">
                             </div>
                             <div class="control">
-                                <a class="button button-primary button-block button-shadow" onclick="video_function()" href="#">Early access</a>
+                                <a class="button button-primary button-block button-shadow" onclick="video_function()" href="#" style = "background-color: #5240a6;">Early access</a>
                             </div>
                         </div>
                     </div>
@@ -373,38 +454,35 @@
                 <div class="site-footer-inner has-top-divider">
                     <div class="brand footer-brand">
                         <a href="#">
-							<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-								<title>Laurel</title>
-								<defs>
-									<linearGradient x1="0%" y1="100%" x2="50%" y2="0%" id="logo-footer-a">
-										<stop stop-color="#F9425F" stop-opacity=".8" offset="0%"/>
-										<stop stop-color="#47A1F9" stop-opacity=".16" offset="100%"/>
-									</linearGradient>
-									<linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="logo-footer-b">
-										<stop stop-color="#FDFFDA" offset="0%"/>
-										<stop stop-color="#F97059" stop-opacity=".798" offset="49.935%"/>
-										<stop stop-color="#F9425F" stop-opacity="0" offset="100%"/>
-									</linearGradient>
-								</defs>
-								<g fill="none" fill-rule="evenodd">
-									<path d="M22 19.22c6.627 0 9.593-6.415 9.593-13.042C31.593-.45 28.627.007 22 .007S10 2.683 10 9.31c0 6.628 5.373 9.91 12 9.91z" fill="url(#logo-footer-a)"/>
-									<path d="M13.666 31.889c7.547 0 10.924-7.307 10.924-14.854 0-7.547-3.377-7.027-10.924-7.027C6.118 10.008 0 13.055 0 20.603c0 7.547 6.118 11.286 13.666 11.286z" fill="url(#logo-footer-b)" transform="matrix(-1 0 0 1 24.59 0)"/>
+							<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<g clip-path="url(#clip0_800_715)">
+								<rect x="7.37427" y="-1" width="26.9594" height="26.9594" rx="9.92592" transform="rotate(18.0968 7.37427 -1)" fill="url(#paint0_linear_800_715)"/>
+								<path d="M12.5713 19.4297L8.09888 10.5811H11.6576L13.1484 13.5627L14.6873 10.5811H24.089L17.8853 22.9885H14.3507L19.0876 13.5146H19.0636L13.1484 13.5627L14.3507 15.9672L12.5713 19.4297Z" fill="white"/>
 								</g>
-							</svg>
+								<defs>
+								<linearGradient id="paint0_linear_800_715" x1="20.854" y1="-1" x2="20.8176" y2="25.9594" gradientUnits="userSpaceOnUse">
+								<stop stop-color="#5240A6"/>
+								<stop offset="1" stop-color="#6146C6"/>
+								</linearGradient>
+								<clipPath id="clip0_800_715">
+								<rect width="32" height="32" fill="white"/>
+								</clipPath>
+								</defs>
+								</svg>
                         </a>
                     </div>
                     <ul class="footer-links list-reset">
                         <li>
-                            <a href="#">Contact</a>
+                            <a href="#" style="color: #5240a6;">Contact</a>
                         </li>
                         <li>
-                            <a href="#">About us</a>
+                            <a href="#" style="color: #5240a6;">About us</a>
                         </li>
                         <li>
-                            <a href="#">FAQ's</a>
+                            <a href="#" style="color: #5240a6;">FAQ's</a>
                         </li>
                         <li>
-                            <a href="#">Support</a>
+                            <a href="#" style="color: #5240a6;">Support</a>
                         </li>
                     </ul>
                     <ul class="footer-social-links list-reset">
